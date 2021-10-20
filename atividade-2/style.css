@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    font-size: 150%;
+}
+
+footer {
+    background: rgb(109, 175, 131);
+}
+
+main > p {
+    color: crimson;
+}
+
+.section {
+    justify-self: flex-start;
+    color: darkblue;
+    align-items: flex-start;
+}
+
+#descricao {
+    text-align: center;
+}
+
+#observacao {
+    text-align: right;
+    font-size: 100%;
+}
+
+a[href="https://jonzcandy.github.io/atividade-iframe3"] {
+    color: rgb(0, 0, 0);
+}
+
+p::first-letter {
+    font-size: 200%;
+}
+
+a:hover {
+    color: seagreen;
+    font-size: 150%;
+}
