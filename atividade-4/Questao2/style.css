@@ -1,0 +1,45 @@
+* {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 10px solid black;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: brown;
+}
+
+#um {
+    border-radius: 25%;
+}
+
+#dois {
+    border: dashed;
+}
+
+#tres {
+    border: double;
+}
+
+#quatro {
+    border: groove;
+}
+
+#cinco{
+    border: ridge;
+}
+
+#seis {
+    border: inset;
+}
+
+#sete {
+    border: outset;
+}
+
+#oito {
+    border: dotted;
+}

@@ -1,0 +1,35 @@
+* {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 3px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#backum {
+    background: red;
+}
+
+#backdois {
+    background: rgb(200, 150, 5, 0.2);
+}
+
+#backtres {
+    background: linear-gradient( rgb(5, 100, 200), rgb(200, 100, 200), rgb(200, 200, 200));
+}
+
+#backquatro {
+    background-image: url(https://i.stack.imgur.com/jZhAM.png);
+    background-repeat: no-repeat;
+}
+
+#backcinco {
+    background-image: url(../Questao1/spinning_colors_avatar_picture_52848.gif);
+    background-repeat: repeat;
+    
+}
