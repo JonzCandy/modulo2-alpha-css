@@ -1,0 +1,50 @@
+* {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-image: url(../Questao2/pessoa-pensando.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div {
+    width: 500px;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.texto {
+    color: crimson;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#um {
+    writing-mode: horizontal-tb;
+    width: 150px;
+    margin: 50px;
+}
+
+#dois {
+    writing-mode: vertical-rl;
+    height: 150px;
+    margin: 50px;
+}
+
+#tres {
+    writing-mode: sideways-lr;
+    width: 150px;
+    margin: 50px;
+}
+
+#quatro {
+    writing-mode: vertical-lr;
+    height: 200px;
+    margin: 50px;
+}

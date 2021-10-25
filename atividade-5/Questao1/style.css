@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', Times, serif;
+    background-color: blue;
+    color: #ffff;
+}
+/*Cabeçalho da pagina pouca coisa*/
+header {
+    flex-direction: column;
+    background-color: black;
+    color: rgb(252, 35, 35);
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
+    color: rgb(252, 35, 35);
+    text-decoration: none;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #929191
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Corpo da Pagina*/
+main {
+    max-width: 700px;
+    margin: auto;
+}
+aside {
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+}
+aside > p {
+    margin: .5rem;
+}
+section {
+    margin: 15px;
+    border: 5px dashed red;
+    padding: 30px;
+}
+h1 {
+    font-style: italic;
+    text-shadow: 2px 2px 2px red,
+                3px 3px 3px rgb(0, 0, 0);
+    font-size: 30px;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 2;
+    font-size: 30px;
+    color: red;
+    text-shadow: 2px 2px 2px black,
+                3px 3px 3px white;
+}
+p {
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+.imgG {
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+footer {
+    background-color: black;
+    padding: 15px;
+    font-style: oblique;
+}
