@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    font-family: 'NovaFonte', serif;
+}
+
+@font-face {
+    font-family: 'NovaFonte';
+    src: 
+        url('../Questao3/alexbrush-regular-webfont.woff') format('woff2'),
+        url('../Questao3/alexbrush-regular-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

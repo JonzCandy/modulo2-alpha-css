@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+header {
+    display: block;
+    text-align: center;
+    background-color: rgba(85, 84, 84, 0.3);
+    font-family: 'Bungee Shade', cursive;
+}
+main {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    padding: 5%;
+    font-family: 'Griffy', cursive;
+    font-size: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul a:link {
+    color: rgb(128, 69, 42); 
+}
+a:visited {
+    color: rgb(255, 255, 255);
+}
+a:focus {
+    border: 2px solid black;
+    background: gray;
+}
+ul a:hover {
+    border: 1px solid;
+    background: green;
+    font-size: 20px;
+}
+a:active {
+    background: brown;
+}
+ul li.pudim{
+    padding-left: 2rem;
+    list-style-type: none;
+    background-image: url(https://lh3.googleusercontent.com/proxy/UZMmnE2ahGeT2Q6yrHLaMKjSSuH244h7OHdncA9OqzuAqOusCc1ybElyFM0B1-4YwXI_VmY3_HQCceKaMJ2un5-u3QU1Tf87n2JfOK-qzOUKhn06Xo1p9RGB9Pyu8vVuVA);
+    background-position: 0 0;
+    background-size: 1rem 1rem;
+    background-repeat: no-repeat;
+}
+ol {
+    list-style-type: upper-roman;
+    padding-left: 10rem;
+    margin-top: 5px;
+}
+h4 {
+    text-align: center;
+}
+footer {
+    display: block;
+    width:100%;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 0.1px;
+    font-family: 'Bungee Shade', cursive;
+}
