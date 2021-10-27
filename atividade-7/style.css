@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+.caixa {
+    border: 10px dashed black;
+    width: 210px;
+    height: 210px;
+    margin: 5px;
+}
+#hexa {
+    background-color: #483D8B;
+}
+#hexat {
+    background-color: #700f0f59;
+}
+#rgb {
+    background-color: rgb(200, 20, 150);
+}
+#rgba {
+    background-color: rgba(100, 8, 200, 0.5);
+}
+#hsl {
+    background-color: hsl(200, 45%, 50%);
+}
+#hsla {
+    background-color: hsla(100, 80%, 24%, 0.8);
+}
+#browsers {
+    background-color: lightblue;
+}
+#elemento {
+    color: indigo;
+    border: 10px solid currentColor;
+}
